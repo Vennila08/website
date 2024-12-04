@@ -1,0 +1,148 @@
+/* h1{
+   text-shadow: 3px 3px 4px hsl(271, 80%, 61%), -3px -3px 4px hsl(202, 88%, 68%);
+}
+#box{
+    width:100px;
+    height: 100px;
+    background-color: rgb(239, 214, 214);
+    box-shadow: 3px 3px 5px;
+} */
+
+/* body{
+    border: 3px solid;
+    display: flow-root;
+} */
+
+/* .box{
+    border:5px solid;
+    font-size: 5em;
+    width: 250px;
+    height:250px;
+}
+#box1{
+    background-color: rgb(232, 21, 17);
+    margin:auto;
+}
+#box2{
+    background-color: rgb(17, 168, 232);
+}
+#img1{
+    float:right;
+    margin-right:10px;
+} */
+/* p{
+    border:3px solid;
+    height: 20px;
+    overflow: clip;
+    overflow-clip-margin: 20px;
+} */
+
+/* div{
+    background-color:rgb(232, 21, 17);
+    width:100px;
+    height:100px;
+    display:inline;
+}
+span{
+    background-color:blue;
+    width:100px;
+    height:100px;
+    display:block;
+} */
+/* .box{
+    border: 2px solid;
+    height: auto;
+    width: 50%;
+    float:left;
+padding:25px;
+}
+body{
+    background-image: url(dog.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+/* #container{
+    border:2px solid;
+}
+#container  ~p{
+    background-color: yellow;
+} */
+/* a:link{
+    color:rgb(96, 96, 234);
+}
+a:hover{
+    color:rgb(0, 170, 255);
+} */
+.pagination{
+    text-align:center;
+}
+.pagination a{
+    color:black;
+    text-decoration:none;
+    padding: 8px 15px;
+    display:inline-block;
+}
+.pagination a.active{
+    background-color:rgb(57, 236, 33);
+    font-weight:bold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+    background-color: rgb(182, 189, 194);
+    border-radius:5px;
+}
+
+.dropdown button{
+    background-color: rgb(204, 218, 231);
+    color:white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown a{
+    display:block;color:black;
+    text-decoration:none;
+    padding: 10px 15px;
+}
+
+.dropdown .content{
+    display:none;
+    position: absolute;
+    background-color: rgb(200, 205, 209);
+    min-width:100px;
+    box-shadow: 2px 2px 5px rgb(49, 43, 33);
+
+}
+.dropdown:hover .content{
+    display:block;
+}
+.dropdown:hover button{
+    background-color: rgb(211, 218, 225);}
+    .dropdown a:hover{
+        background-color: beige;
+    }
+.container{
+    display:flex;
+    flex-direction: row;
+}
+    .box{
+        width:150px;
+        height: 150px;
+       text-align: center;
+       border-radius: 15px;
+    }
+    #box1{
+        background-color: rgb(232, 12, 12);
+    }
+    #box2{
+        background-color: rgb(225, 232, 12);
+    }
+    #box3{
+        background-color: rgb(12, 232, 52);
+    }
+    #box4{
+        background-color: rgb(37, 176, 240);
+    }
